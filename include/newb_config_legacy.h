@@ -43,7 +43,7 @@
 #define NL_NIGHT_BRIGHTNESS 0.1 // 0.0 dark ~ 2.0 bright
 #define NL_CAVE_BRIGHTNESS  0.1 // 0.0 dark ~ 2.0 bright
 #define NL_SHADOW_INTENSITY 0.7 // 0.0 no shadow ~ 1.0 strong shadow
-//#define NL_BLINKING_TORCH     // [toggle] flickering light
+#define NL_BLINKING_TORCH     // [toggle] flickering light
 
 /* Sun/moon light color on terrain */
 #define NL_MORNING_SUN_COL vec3(1.0,0.45,0.14)
@@ -71,10 +71,10 @@
 #define NL_END_SKY_COL vec3(0.28,0.031,0.33)
 
 /* Ore glow intensity */
-#define NL_GLOW_TEX 2.2 // 0.4 weak ~ 8.0 bright
+#define NL_GLOW_TEX 2.3 // 0.4 weak ~ 8.0 bright
 
 /* Waving */
-#define NL_PLANTS_WAVE 0.04  // [toggle] 0.02 gentle ~ 0.4 violent
+#define NL_PLANTS_WAVE 0.06  // [toggle] 0.02 gentle ~ 0.4 violent
 #define NL_LANTERN_WAVE 0.16 // [toggle] 0.05 subtle ~ 0.4 large swing
 #define NL_WAVE_SPEED 2.8    // 0.5 slow wave ~ 5.0 very fast wave
 
@@ -114,13 +114,13 @@
 #define NL_CLOUD2_SHAPE 0.65         // 0.0 round ~ 1.0 box
 #define NL_CLOUD2_DENSITY 5.0        // 1.0 blurry ~ 100.0 sharp
 #define NL_CLOUD2_VELOCIY 0.8        // 0.0 static ~ 4.0 very fast
-//#define NL_CLOUD2_MULTILAYER       // [toggle] extra cloud layer
+#define NL_CLOUD2_MULTILAYER       // [toggle] extra cloud layer
 
 /*️ Aurora settings */
-#define NL_AURORA 1.2           // [toggle] 0.4 dim ~ 4.0 very bright
-#define NL_AURORA_VELOCITY 0.03 // 0.0 static ~ 0.3 very fast
-#define NL_AURORA_SCALE 0.04    // 0.002 large ~ 0.4 tiny
-#define NL_AURORA_WIDTH 0.18    // 0.04 thin line ~ 0.4 thick lines
+#define NL_AURORA 2.3        // [toggle] 0.4 dim ~ 4.0 very bright
+#define NL_AURORA_VELOCITY 0.12 // 0.0 static ~ 0.3 very fast
+#define NL_AURORA_SCALE 0.002    // 0.002 large ~ 0.4 tiny
+#define NL_AURORA_WIDTH 0.2    // 0.04 thin line ~ 0.4 thick lines
 #define NL_AURORA_COL1 vec3(0.1,1.0,0.0)
 #define NL_AURORA_COL2 vec3(0.1,0.0,1.0)
 
@@ -128,7 +128,7 @@
 #define NL_RAIN_MIST_OPACITY 0.12 // [toggle] 0.04 very subtle ~ 0.5 thick
 
 /* Chunk loading slide in animation */
-//#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
+#define NL_CHUNK_LOAD_ANIM 100.0 // [toggle] -600.0 fall from top ~ 600.0 rise from bottom
 
 /* -------- CONFIG ENDS HERE ----------- */
 
